@@ -1,0 +1,91 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+#container{
+	width: 95%;
+	margin: 0 auto;
+}
+/*.img{
+	background: url("../Img/BookIndex/2.jpg");
+	background-size: cover;
+	height: 2000px;
+}*/
+
+.moto{
+	text-align: center;
+	width: 90%;
+	margin: 30px auto;
+	height: 250px;
+	padding-top: 10px; 
+	border: 1px solid #c0c0c0;
+	padding: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(1,1,1,0.4);
+	border-radius: 5px;
+}
+
+.col{
+	margin: 0 12px; 
+	width: 31%;
+	float: left;
+}
+
+.moto h2{
+	font-size: 24px;
+	font-weight: 100;
+}
+
+.moto p{
+	color: #777;
+	font-size: 18px;
+}
+
+.moto h4{
+	font-size: 16px;
+	color: #333;
+}
+
+.trend{
+	height: 450px;
+	background: #ffd89b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.trend .col{
+	margin: 0 9px;
+	padding: 10px 5px 0px 5px;
+	width: 17%;
+	height: 325px;
+	background: white;
+	border: 1px solid #f0f0f0;
+	border-radius: 5px;
+}
+
+.trend h1{
+	color: white;
+	font-size: 35px;
+	font-weight: 100;
+}
+
+.trend h4{
+	font-size: 15px;
+}
+
+.trend p{
+	color: #777;
+	font-size: 15px;
+}
+
+.cover{
+	height: 200px;
+}
+
+.cover:hover{
+	height: 220px;
+}
+
+.trend .col:hover{
+	height: 345px;
+}
